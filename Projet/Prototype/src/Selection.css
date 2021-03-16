@@ -1,0 +1,32 @@
+.Selection {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+}
+
+.Graines {
+    background-color: white;
+    margin-left: 22%;
+    margin-top: 12%;
+}
+
+.Fleurs {
+    background-color: blue;
+    margin-left: 5%;
+    margin-top: 17%;
+}
+
+.Boutons {
+    background-color: red;
+    margin-left: 42%;
+    margin-top: 30%;
+    height: 170px;
+}
+
+.Concretions {
+    background-color: green;
+    margin-left: 55%;
+    margin-top: 33%;
+    height: 170px;
+    width: 160px;
+}
