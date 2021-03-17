@@ -1,4 +1,3 @@
-import Question1 from './Question1.png';
 import './App.css';
 import './Selection.css' //Style de Css test pour la question 1 en attendant les ressources finales
 
@@ -12,13 +11,12 @@ function App() {
       questionText: '2 Test question 2',
     }
   ]
+  
   return (
     <div className="App">
 
       <div className="Container">
-
-        //Cette div affiche la question selectionné, ici 1, bientot remplacer par une variable
-      <div className="QuestionText"> {questions[1].questionText}  </div> 
+      <div className="QuestionText"> <div className="Question"><h1>{questions[0].questionText} </h1></div></div> 
 
         <div className="QuestionImages">
         <div className="Selection Graines"></div>
@@ -26,10 +24,10 @@ function App() {
           <div className="Selection Boutons"></div>
           <div className="Selection Concretions"></div>
         </div>
-        <div className="Description">
-
-        </div>
-
+          <div className="Description"> 
+            <div className="DescriptionTitle"><h3>Description :</h3></div>
+            <div className="DescriptionContent"><p></p></div>
+          </div>
         <div className="Footer">
           <p className="center">Designed by EPITECH</p>
         </div>

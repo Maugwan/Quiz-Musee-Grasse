@@ -2,6 +2,10 @@
     width: 120px;
     height: 120px;
     position: absolute;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 2px solid white;
 }
 
 .Graines {
@@ -11,7 +15,8 @@
 }
 
 .Fleurs {
-    background-color: blue;
+    background-image: url('/src/images/Questions/1/fleur.jpg');
+    width:80px;
     margin-left: 5%;
     margin-top: 17%;
 }
@@ -20,13 +25,10 @@
     background-color: red;
     margin-left: 42%;
     margin-top: 30%;
-    height: 170px;
 }
 
 .Concretions {
     background-color: green;
     margin-left: 55%;
     margin-top: 33%;
-    height: 170px;
-    width: 160px;
 }
