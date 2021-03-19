@@ -1,5 +1,4 @@
 import './App.css';
-import './test';
 import PostList from './posts/PostList';
 import './Selection.css' //Style de Css test pour la question 1 en attendant les ressources finales
 
