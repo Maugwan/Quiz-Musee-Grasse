@@ -1,0 +1,251 @@
+[
+    {
+        "question": "Quelle plante utilise-t-on pour parfumer les poudres?",
+        "answers": [
+            {
+                "description": "La cardamome"
+            },
+            {
+                "description": "L'iris"
+            },
+            {
+                "description": "Le géranium"
+            },
+            {
+                "description": "L'ambre gris"
+            }
+        ],
+        "good_answer": 1
+    },
+    {
+        "question": "Je suis en albâtre et je servais à créer des poudres colorées? Que suis-je?",
+        "answers": [
+            {
+                "description": "18e-20e dynasties (1580-332 av. J.-C.), Egypte\nInv. 93 568, 02 446"
+            },
+            {
+                "description": "Bichara\n1928, France\nInv. 06 13597"
+            },
+            {
+                "description": "1er-4e s. av. J.-C., Egypte\nInv. 93 577"
+            },
+            {
+                "description": "1er millénaire, Syrie du Nord\nInv. 93 571"
+            },
+            {
+                "description": "19e siècle (2e quart)\nInv.97 391 AB"
+            }
+        ],
+        "good_answer": 0
+    },
+    {
+        "question": "Je suis une boite à poudre créée en 1930 par Chabrawichi. Qui suis-je?",
+        "answers": [
+            {
+                "description": "France\nCarton, papier\nInv. 95 358 AB"
+            },
+            {
+                "description": "Parfumerie Al Marzouka\nAl misk\nPapier, carton\nVers 1990, Moyen-Orient (Irak ou Liban)\nInv.2010.21"
+            },
+            {
+                "description": "Ambre\nBICHARA\nVerre\n20e siècle (2e quart), France\nInv.02 195 AB"
+            },
+            {
+                "description": "Emeraude\nCOTY\n20e siècle (2e quart), France\nCarton, papier, imprimé\nInv. 95 57 AB"
+            }
+        ],
+        "good_answer": 0
+    },
+    {
+        "question": "Je suis une boite à poudre créée en 1940 d’inspiration antique, Qui suis-je?",
+        "answers": [
+            {
+                "description": "La ducale\nItalie\nInv. 95 231 AB"
+            },
+            {
+                "description": "Chypre\nJn Giraud Fils\nCarton, papier\nFrance\nInv.95 115 A B"
+            },
+            {
+                "description": "Bourjois\nItalie\nInv.95 460"
+            },
+            {
+                "description": "Khan Khalili\n20e siècle (1ère moitié), Egypte\nAhmed Soliman\nBakélite, moulé"
+            }
+        ],
+        "good_answer": 0
+    },
+    {
+        "question": "Pour les fards colorés, cette boite à compartiments qui pèse son poids permet de séparer les fards? En quelle matière est-elle faite?",
+        "answers": [
+            {
+                "description": "Pierre\nIer millénaire\nEpoque Hittite\nAntiquité syrienne\nInv. 93 569 AB"
+            },
+            {
+                "description": "Antiquité égyptienne, Egypte\nInv. 93 581"
+            },
+            {
+                "description": "Inv.93 588"
+            },
+            {
+                "description": "20e siècle, Mauritanie\nInv.03 771"
+            }
+        ],
+        "good_answer": 0
+    },
+    {
+        "question": "Je peux servir de boite  à fard en Grèce? Qui suis-je?",
+        "answers": [
+            {
+                "description": "Un lécythe\nVase grecque antique de forme élancée, munie d’une anse, d’un pied au col long et étroit "
+            },
+            {
+                "description": "Un aryballe\nVase grec antique à panse globulaire, piriforme ou ovoïde"
+            },
+            {
+                "description": "Un vase plastique\nRécipient modeler ou mouler pouvant prendre différentes formes et volume s"
+            },
+            {
+                "description": "Un mandrin\nPièce, outil le plus souvent de forme cylindrique"
+            },
+            {
+                "description": "Une pyxide\nPetite boîte avec couvercle utilisée dans l'Antiquité"
+            }
+        ],
+        "good_answer": 4
+    },
+    {
+        "question": "Mon nom évoque une célèbre cité romaine qui fut pas recouverte par la poudre mais par des nuées ardentes. Qui suis-je?",
+        "answers": [
+            {
+                "description": "Chypre\nGellé frères\n20e siècle, France\nCarton, papier\nInv. 95 75"
+            },
+            {
+                "description": "L.T.Piver\nParf. Pierre Armingeat\n20e siècle, France\nCarton, papier\nInv. 90 142"
+            },
+            {
+                "description": "Bourjois\nSoir de Paris\n20e siècle, France\n20e siècle, France\nCarton, papier\nInv.95 30 A B"
+            },
+            {
+                "description": "Jn Giraud Fils\nGrasse les fleurs\n19e siècle, France\nCarton, papier\nInv.87 122"
+            }
+        ],
+        "good_answer": 1
+    },
+    {
+        "question": "Faite d’écorce, utilisé au XVIIIème siècle, je peux prendre différente forme. Qui suis-je?",
+        "answers": [
+            {
+                "description": "Grasse\nInv. 93 711"
+            },
+            {
+                "description": "Bois\nGrasse\nInv. 93 644"
+            },
+            {
+                "description": "Jean-Marie Farina\nAllemagne\nVerre\nInv. 2015.12.7"
+            },
+            {
+                "description": "Sous les tilleuls\nAUZIERE FRERES\nFrance\nCarton, papier\nInv.95 476 ab"
+            },
+            {
+                "description": "Iran\nInv.2016.9.53"
+            }
+        ],
+        "good_answer": 0
+    },
+    {
+        "question": "« Egérie de riz » immortalisée sur une affiche par Jules Chéret, j’ai ri de me voir si belle en ce miroir! Qui suis-je?",
+        "answers": [
+            {
+                "description": "Affiche\nLait des Alpes\nFrance\nPapier\nInv.96 418"
+            },
+            {
+                "description": "Affiche\nLa Diaphane\n19e siècle, France\nPapier\nInv.96 463"
+            },
+            {
+                "description": "Affiche\nSavon de Jeannette\nPapier, lithographie\nInv.96 530"
+            },
+            {
+                "description": "Affiche\nLe Miroir Rouge\nLepape, Georges\n20e siècle, France\nPapier, peint au pochoir\nInv.03 228"
+            },
+            {
+                "description": "Image\n19e siècle\nPapier, crayon, encre noir\nInv.88 121"
+            }
+        ],
+        "good_answer": 1
+    },
+    {
+        "question": "Je suis une poudre, les chinois ne m’utilisaient pas pour le maquillage mais pour l’hygiène . Qui suis-je?",
+        "answers": [
+            {
+                "description": "L.T. PIVER\n19e siècle (4e quart)\nPorcelaine\nInv.97 318 A B"
+            },
+            {
+                "description": "Métal\n20e siècle\nInv.95 69"
+            },
+            {
+                "description": "19e siècle\nArgent\nInv.00 6"
+            },
+            {
+                "description": "Boîte-écrin\nPapier, tissu\nInv.2017.10.5.2"
+            }
+        ],
+        "good_answer": 0
+    },
+    {
+        "question": "Déclaré en Inde en 1963 « oiseau national » il peut aussi contenir des fards. De quel oiseau s’agit-il?",
+        "answers": [
+            {
+                "description": "19e siècle\nBronze\nInv.03 886 AB"
+            },
+            {
+                "description": "19e siècle, Inde\nBois sculpté\nInv.02 694"
+            },
+            {
+                "description": "20e siècle, Inde\nLaiton gravé, ciselé, ajouré et poli\nInv.03 689 ABC"
+            },
+            {
+                "description": "20e siècle\nVerre translucide, matière plastique\nInv.02 465 AB"
+            }
+        ],
+        "good_answer": 1
+    },
+    {
+        "question": "Au XXème siècle, je deviens bijou. Pour qui ai-je été fabriqué?",
+        "answers": [
+            {
+                "description": "Flacon\nDesigner KOTYUK, Ben\n20e siècle\nVerre translucide, moulé, dépoli\nInv.90 73 ABC"
+            },
+            {
+                "description": "Vaporisateur à poire\nDesigner RATEAU, Armand-Albert\n20e siècle, France\nPorcelaine de Sèvres\nInv.02 305"
+            },
+            {
+                "description": "Flacon\nBoucheron\nDesigner DESGRIPPES, Joël\n20e siècle, France\nVerre opaque, matière plastique, métal\nInv.02 113"
+            },
+            {
+                "description": "Bracelet\nZouzou\n20e siècle, France\nMétal, bakélite\nInv.2016.20.2.1"
+            },
+            {
+                "description": "Flacon\nFirst Edition\nDesigner NIKI DE SAINT-PHALLE\n20e siècle, France\nVerre translucide, moulé, doré matière plastique\nInv.96 137 AB"
+            }
+        ],
+        "good_answer": 3
+    },
+    {
+        "question": "Tintin et Riquet en ont une, le Pape de l’affiche vous la montre, Quel est le nom de cet objet?",
+        "answers": [
+            {
+                "description": "Le Miroir Rouge\n20e siècle, France\nPapier, peint au pochoir\nInv.03 228"
+            },
+            {
+                "description": "Ulba\nBois peint\n20e siècle, Shibam\nInv.2010.21.41"
+            },
+            {
+                "description": "Le tabac blond\nCaron\nDALTROFF, Ernest\n20e siècle, France\nCarton, papier doré gaufré\nInv.83 57 ABC"
+            },
+            {
+                "description": "20e siècle, Inde\nSantal, métal\nInv.02 899"
+            }
+        ],
+        "good_answer": 0
+    }
+]
