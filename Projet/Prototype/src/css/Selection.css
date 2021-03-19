@@ -13,26 +13,26 @@
     transform: scale(2); 
 }
 
-.Graines {
+.one {
     background-color: white;
     margin-left: 22%;
     margin-top: 12%;
 }
 
-.Fleurs {
+.two {
     background-image: url('/src/images/Questions/1/fleur.jpg');
     width:80px;
     margin-left: 5%;
     margin-top: 17%;
 }
 
-.Boutons {
+.three {
     background-color: red;
     margin-left: 42%;
     margin-top: 30%;
 }
 
-.Concretions {
+.four {
     background-color: green;
     margin-left: 55%;
     margin-top: 33%;

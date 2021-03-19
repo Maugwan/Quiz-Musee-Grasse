@@ -1,6 +1,6 @@
-import './App.css';
+import './css/App.css';
 import PostData from './data/data.json'
-import './Selection.css' //Style de Css test pour la question 1 en attendant les ressources finales
+import './css/Selection.css' //Style de Css test pour la question 1 en attendant les ressources finales
 
 function App() {
 
@@ -14,10 +14,10 @@ function App() {
       <div className="QuestionText"><h2>{PostData[questionsNumber].question}</h2></div> 
 
         <div className="QuestionImages">
-        <div className="Selection Graines"></div>
-          <div className="Selection Fleurs"></div>
-          <div className="Selection Boutons"></div>
-          <div className="Selection Concretions"></div>
+        <div className="Selection one"></div>
+          <div className="Selection two"></div>
+          <div className="Selection three"></div>
+          <div className="Selection four"></div>
         </div>
           <div className="Description"> 
             <div className="DescriptionTitle"><h3>Description :</h3></div>
