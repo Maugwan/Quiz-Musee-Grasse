@@ -20,20 +20,26 @@
 }
 
 .two {
-    background-image: url('/src/images/Questions/1/fleur.jpg');
+    background-image: url('/src/images/Questions/1.jpg');
     width:80px;
     margin-left: 5%;
-    margin-top: 17%;
+    margin-top: 10%;
 }
 
 .three {
     background-color: red;
     margin-left: 42%;
-    margin-top: 30%;
+    margin-top: 13%;
 }
 
 .four {
     background-color: green;
     margin-left: 55%;
-    margin-top: 33%;
+    margin-top: 20%;
+}
+
+.five {
+    margin-left: 20%;
+    margin-top: 22%;
+    width: 140px;
 }
