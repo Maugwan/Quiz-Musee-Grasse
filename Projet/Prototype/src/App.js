@@ -13,7 +13,7 @@ function App() {
     <div className="App">
 
       <div className="Container">
-      <div className="QuestionText"><h2>{PostData[0].question}</h2></div> 
+      <div className="QuestionText"><h2>{PostData[questionsNumber].question}</h2></div> 
         <div className="QuestionImages"><Counter/></div>
 
           <div className="Description">

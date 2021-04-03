@@ -4,7 +4,8 @@ class Counter extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            count: 0
+            count: 0,
+            test:0
         }
     }
     increment = () =>{
@@ -19,11 +20,21 @@ class Counter extends Component {
         })
     };
 
+    testNumber = () => {
+        let answer = this.state.test
+        this.setState({
+            test: answer +1
+        })
+    }
+
     render() {
         return (
             <div>
                 <div className='Selection five' onClick={this.increment}>
                 <p>My counter: {this.state.count}</p>
+                </div>
+                <div className='Selection six' onClick={this.increment}>
+                <p>My score: {this.state.count}</p>
                 </div>
                 <div className="Selection one" onClick={this.increment}></div>
                 <div className="Selection two" onClick={this.increment}></div>
