@@ -41,13 +41,6 @@ body {
   border-radius: 15px;
 }
 
-.QuestionImages {
-  background-image: url("/src/images/Questions/1.jpg");
-  background-size: cover;
-  grid-column: 1;
-  grid-row: 2;
-  border-radius: 20px;
-}
 
 .Description {
   grid-column: 2;
