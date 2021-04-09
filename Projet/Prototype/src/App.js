@@ -7,13 +7,15 @@ import './css/Selection.css'
 
 function App() {
   let [question, setQuestion] = useState(0);
-  let [questionCount, setQuestionCount] = useState(0);
+  let [questionCount, setQuestionCount] = useState(1);
   let [description, setDescription] = useState(0);
-  let [imagesCount, setImagesCount] = useState(0);
 
       const increment = () =>{
         setQuestion(question + 1)
+        setQuestionCount(questionCount + 1)
     };
+
+      const questionLenght = PostData.length + 1;
     
       const imagesBackGround = [
         {
@@ -113,7 +115,7 @@ function App() {
     <div className="App">
 
       <div className="Container">
-      <div className="QuestionText"><h2>{PostData[question].question}</h2></div> 
+      <div className="QuestionText"><h2><span>{questionCount}</span>/{questionLenght}  {PostData[question].question}</h2></div> 
         <div className={imagesBackGround[question].questionBackGroung}>
                 <div className={imagesBackGround[question].answersOne} onMouseEnter={() => setDescription(description = 0)} onDoubleClick={increment}></div>
                 <div className={imagesBackGround[question].answersTwo} onMouseEnter={() => setDescription(description = 1)} onDoubleClick={increment}></div>
