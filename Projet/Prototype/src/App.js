@@ -10,18 +10,18 @@ function App() {
   let [questionCount, setQuestionCount] = useState(1);
   let [description, setDescription] = useState(0);
   let [counter, setCounter] = useState(0);
-
-      const increment = () =>{
-        setQuestion(question + 1)
-        setQuestionCount(questionCount + 1)
-    };
+  
 
       function test(){
         let goodAnswer = PostData[question].good_answer
-
         if(goodAnswer === description) {
           setCounter(counter + 1)
-          alert(counter)
+          console.log(counter)
+          setQuestion(question + 1)
+          setQuestionCount(questionCount + 1)
+        }else{
+          setQuestion(question + 1)
+          setQuestionCount(questionCount + 1)
         }
       }
 
@@ -127,10 +127,10 @@ function App() {
       <div className="Container">
       <div className="QuestionText"><h2><span>{questionCount}</span>/{questionLenght}  {PostData[question].question}</h2></div> 
         <div className={imagesBackGround[question].questionBackGroung}>
-                <div className={imagesBackGround[question].answersOne} onMouseEnter={() => setDescription(description = 0)} onClick={increment} onClick={test}></div>
-                <div className={imagesBackGround[question].answersTwo} onMouseEnter={() => setDescription(description = 1)} onClick={increment} onClick={test}></div>
-                <div className={imagesBackGround[question].answersThree} onMouseEnter={() => setDescription(description = 2)} onClick={increment}onClick={test}></div>
-                <div className={imagesBackGround[question].answersFour} onMouseEnter={() => setDescription(description = 3)} onClick={increment}onClick={test}></div>
+                <div className={imagesBackGround[question].answersOne} onMouseEnter={() => setDescription(description = 0)} onClick={test}></div>
+                <div className={imagesBackGround[question].answersTwo} onMouseEnter={() => setDescription(description = 1)} onClick={test}></div>
+                <div className={imagesBackGround[question].answersThree} onMouseEnter={() => setDescription(description = 2)} onClick={test}></div>
+                <div className={imagesBackGround[question].answersFour} onMouseEnter={() => setDescription(description = 3)} onClick={test}></div>
         </div>
 
           <div className="Description">
@@ -139,7 +139,7 @@ function App() {
           </div>
           
         <div className="Footer">
-          <p className="center">Designed by EPITECH</p>
+          <p className="center">Designed by<a href="https://www.linkedin.com/in/maugwan-lachatre"> <b>Maugwan Lachatre</b></a> <b>for EPITECH</b> Hub project</p>
         </div>
       </div>
     </div>
