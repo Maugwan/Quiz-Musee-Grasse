@@ -10,22 +10,42 @@ function App() {
   let [questionCount, setQuestionCount] = useState(1);
   let [description, setDescription] = useState(0);
   let [counter, setCounter] = useState(0);
+  let [tryNumber, setTryNumber] = useState(0);
+  const questionLenght = PostData.length + 1;
   
 
-      function test(){
+      function doubleClick(){
         let goodAnswer = PostData[question].good_answer
-        if(goodAnswer === description) {
-          setCounter(counter + 1)
-          console.log(counter)
-          setQuestion(question + 1)
-          setQuestionCount(questionCount + 1)
-        }else{
-          setQuestion(question + 1)
-          setQuestionCount(questionCount + 1)
-        }
-      }
+        if(questionCount < 14 & question < 13){
+              if(goodAnswer !== description & tryNumber < 1) {
+                setTryNumber(tryNumber + 1)
+                alert("Mauvaise réponse ! encore un essai !")
+            //  if(question = 14) {
+            //     setQuestion(question = 0)
+            //     setQuestionCount(questionCount = 1)
+            //   }
+              }else if(goodAnswer === description){
+                setCounter(counter + 1)
+                //setTryNumber(tryNumber)
+                setQuestion(question + 1)
+                setQuestionCount(questionCount + 1)
+                setTryNumber(tryNumber = 0)
+                alert("Bonne réponse !")
+                // setQuestion(question + 1)
+                // setQuestionCount(questionCount + 1)
+                // setTryNumber(tryNumber = 1)
+              }
+              else {
+                setQuestion(question + 1)
+                setQuestionCount(questionCount + 1)
+                setTryNumber(tryNumber = 0)
+                alert("Zut !")
+              }
+            }else{
 
-      const questionLenght = PostData.length + 1;
+              alert("Bravo ! Vous avez fini le quiz avec  "+ counter + " bonne réponses !")
+            }
+      }
     
       const imagesBackGround = [
         {
@@ -119,21 +139,29 @@ function App() {
           answersThree: 'Selection answerThree thirteenThree',
           answersFour: 'Selection answerFour thirteenFour'
         },
+        {
+        questionBackGroung: 'question ImagesFourTeen',
+        answersOne: 'Selection answerOne thirteenOne',
+        answersTwo: 'Selection answerTwo thirteenTwo',
+        answersThree: 'Selection answerThree thirteenThree',
+        answersFour: 'Selection answerFour thirteenFour',
+        },
       ]
 
   return (
     <div className="App">
 
       <div className="Container">
-      <div className="QuestionText"><h2><span>{questionCount}</span>/{questionLenght}  {PostData[question].question}</h2></div> 
+      <div className="QuestionText"><h2><span>{questionCount}</span>/{questionLenght - 1}  {PostData[question].question}</h2></div> 
         <div className={imagesBackGround[question].questionBackGroung}>
-                <div className={imagesBackGround[question].answersOne} onMouseEnter={() => setDescription(description = 0)} onClick={test}></div>
-                <div className={imagesBackGround[question].answersTwo} onMouseEnter={() => setDescription(description = 1)} onClick={test}></div>
-                <div className={imagesBackGround[question].answersThree} onMouseEnter={() => setDescription(description = 2)} onClick={test}></div>
-                <div className={imagesBackGround[question].answersFour} onMouseEnter={() => setDescription(description = 3)} onClick={test}></div>
+                <div className={imagesBackGround[question].answersOne} onMouseEnter={() => setDescription(description = 0)} onClick={doubleClick}></div>
+                <div className={imagesBackGround[question].answersTwo} onMouseEnter={() => setDescription(description = 1)} onClick={doubleClick}></div>
+                <div className={imagesBackGround[question].answersThree} onMouseEnter={() => setDescription(description = 2)} onClick={doubleClick}></div>
+                <div className={imagesBackGround[question].answersFour} onMouseEnter={() => setDescription(description = 3)} onClick={doubleClick}></div>
         </div>
 
           <div className="Description">
+            <div className="Rules"><h3>Les régles :</h3></div>
             <div className="DescriptionTitle"><h3>Description :</h3></div>
             <div className="DescriptionContent">{PostData[question].answers[description].description}</div>
           </div>

@@ -248,5 +248,23 @@
             }
         ],
         "good_answer": 0
+    },
+    {
+        "question": "Bravo ! le quiz est maintenant terminé !",
+        "answers": [
+            {
+                "description": "Le Miroir Rouge\n20e siècle, France\nPapier, peint au pochoir\nInv.03 228"
+            },
+            {
+                "description": "Ulba\nBois peint\n20e siècle, Shibam\nInv.2010.21.41"
+            },
+            {
+                "description": "Le tabac blond\nCaron\nDALTROFF, Ernest\n20e siècle, France\nCarton, papier doré gaufré\nInv.83 57 ABC"
+            },
+            {
+                "description": "20e siècle, Inde\nSantal, métal\nInv.02 899"
+            }
+        ],
+        "good_answer": 0
     }
 ]
