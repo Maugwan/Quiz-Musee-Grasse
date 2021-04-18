@@ -1,8 +1,10 @@
 import './css/App.css';
 import './images/Questions/1.jpg'
 import './images/Questions/2.jpg'
-import React, { useEffect, useState } from "react";
+import React, {useState} from "react";
 import PostData from './data/data.json'
+import Footer from './Component/Footer'
+import Rules from './Component/Rules'
 import './css/Selection.css'
 
 function App() {
@@ -13,27 +15,18 @@ function App() {
   let [tryNumber, setTryNumber] = useState(0);
   const questionLenght = PostData.length + 1;
   
-
       function doubleClick(){
         let goodAnswer = PostData[question].good_answer
         if(questionCount < 14 & question < 13){
               if(goodAnswer !== description & tryNumber < 1) {
                 setTryNumber(tryNumber + 1)
                 alert("Mauvaise réponse ! encore un essai !")
-            //  if(question = 14) {
-            //     setQuestion(question = 0)
-            //     setQuestionCount(questionCount = 1)
-            //   }
               }else if(goodAnswer === description){
                 setCounter(counter + 1)
-                //setTryNumber(tryNumber)
                 setQuestion(question + 1)
                 setQuestionCount(questionCount + 1)
                 setTryNumber(tryNumber = 0)
                 alert("Bonne réponse !")
-                // setQuestion(question + 1)
-                // setQuestionCount(questionCount + 1)
-                // setTryNumber(tryNumber = 1)
               }
               else {
                 setQuestion(question + 1)
@@ -42,11 +35,9 @@ function App() {
                 alert("Zut !")
               }
             }else{
-
               alert("Bravo ! Vous avez fini le quiz avec  "+ counter + " bonne réponses !")
             }
       }
-    
       const imagesBackGround = [
         {
           questionBackGroung: 'question ImagesOne',
@@ -164,7 +155,6 @@ function App() {
 
   return (
     <div className="App">
-
       <div className="Container">
       <div className="QuestionText"><h2><span>{questionCount}</span>/{questionLenght - 1}  {PostData[question].question}</h2></div> 
         <div className={imagesBackGround[question].questionBackGroung}>
@@ -175,20 +165,12 @@ function App() {
                 <div className={imagesBackGround[question].answersFour} onMouseEnter={() => setDescription(description = 3)} onClick={doubleClick}></div>
                 <div className={imagesBackGround[question].answersFive} onMouseEnter={() => setDescription(description = 4)} onClick={doubleClick}></div>
         </div>
-
-          <div className="Description">
-            <div className="Rules"><h3>Les régles :</h3>
-            <p>Deux essais avant de passer à la question suivante. </p>
-            <p>Glisser la souris sur les objets pour avoir des informations.</p>
-            <p>Un clique sur l'objet pour valider.</p>
-            </div>
+        <div className="Description">
+            <Rules/>
             <div className="DescriptionTitle"><h3>Description :</h3></div>
             <div className="DescriptionContent">{PostData[question].answers[description].description}</div>
-          </div>
-          
-        <div className="Footer">
-          <p className="center">Designed by<a href="https://www.linkedin.com/in/maugwan-lachatre"> <b>Maugwan Lachatre</b></a> <b>for EPITECH</b> Hub project</p>
         </div>
+        <Footer/>
       </div>
     </div>
   );
