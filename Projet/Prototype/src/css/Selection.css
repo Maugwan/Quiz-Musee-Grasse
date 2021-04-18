@@ -17,7 +17,24 @@
 .answerTwo { margin-left: 5%; margin-top: 10%; }
 .answerThree { margin-left: 42%; margin-top: 13%; }
 .answerFour { margin-left: 55%;margin-top: 20%; }
+.answerFive { margin-left: 20%;margin-top: 30%; }
 
+.Site {
+    text-align: center;
+    padding: 10px;
+    width: 140px;
+    height: auto;
+    position: absolute;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: rgba(183,97,178,.7);
+    margin-left: 55%; margin-top: 1%;
+    transition: 1s;
+}
+.Site:hover {
+    transform: scale(1.2); 
+    background-color: rgba(0,212,255,0.7);
+}
 
 /* Start setting backgroung image*/
 .question {
@@ -53,6 +70,7 @@
 .twoTwo { background-image: url('/src/images/Questions/2_2.jpg'); }
 .twoThree { background-image: url('/src/images/Questions/2_3.jpg'); }
 .twoFour { background-image: url('/src/images/Questions/2_4.jpg'); }
+.twoFive { background-image: url('/src/images/Questions/2_5.jpg'); }
 
 .threeOne { background-image: url('/src/images/Questions/3_1.jpg'); }
 .threeTwo { background-image: url('/src/images/Questions/3_2.jpg'); }
@@ -83,11 +101,15 @@
 .heightTwo { background-image: url('/src/images/Questions/8_2.jpg'); }
 .heightThree { background-image: url('/src/images/Questions/8_3.jpg'); }
 .heightFour { background-image: url('/src/images/Questions/8_4.jpg'); }
+.heightFive { background-image: url('/src/images/Questions/8_5.jpg'); }
+
 
 .nineOne { background-image: url('/src/images/Questions/9_1.jpg'); }
 .nineTwo { background-image: url('/src/images/Questions/9_2.jpg'); }
 .nineThree { background-image: url('/src/images/Questions/9_3.jpg'); }
 .nineFour { background-image: url('/src/images/Questions/9_4.jpg'); }
+.nineFive { background-image: url('/src/images/Questions/9_5.jpg'); }
+
 
 .tenOne { background-image: url('/src/images/Questions/10_1.jpg'); }
 .tenTwo { background-image: url('/src/images/Questions/10_2.jpg'); }
@@ -103,6 +125,7 @@
 .twelveTwo { background-image: url('/src/images/Questions/12_2.jpg'); }
 .twelveThree { background-image: url('/src/images/Questions/12_3.jpg'); }
 .twelveFour { background-image: url('/src/images/Questions/12_4.jpg'); }
+.twelveFive { background-image: url('/src/images/Questions/12_5.jpg'); }
 
 .twelveOne { background-image: url('/src/images/Questions/12_1.jpg'); }
 .twelveTwo { background-image: url('/src/images/Questions/12_2.jpg'); }
