@@ -16,8 +16,8 @@
 .answerOne { margin-left: 25%; margin-top: 20%; }
 .answerTwo { margin-left: 5%; margin-top: 10%; }
 .answerThree { margin-left: 42%; margin-top: 13%; }
-.answerFour { margin-left: 45%;margin-top: 34%; }
-.answerFive { margin-left: 5%;margin-top: 34%; }
+.answerFour { margin-left: 45%;margin-top: 30%; }
+.answerFive { margin-left: 5%;margin-top: 30%; }
 
 .Site {
     text-align: center;
@@ -66,8 +66,8 @@
 .oneThree { background-image: url('/src/images/Questions/1_3.jpg'); }
 .oneFour { background-image: url('/src/images/Questions/1_4.jpg'); }
 
-.twoOne { background-image: url('/src/images/Questions/2_1.jpg'); }
-.twoTwo { background-image: url('/src/images/Questions/2_2.jpg'); }
+.twoOne { background-image: url('/src/images/Questions/2_1.jpg'); height: 150px;}
+.twoTwo { background-image: url('/src/images/Questions/2_2.jpg'); height: 170px;}
 .twoThree { background-image: url('/src/images/Questions/2_3.jpg'); }
 .twoFour { background-image: url('/src/images/Questions/2_4.jpg'); }
 .twoFive { background-image: url('/src/images/Questions/2_5.jpg'); }
@@ -83,9 +83,9 @@
 .fourFour { background-image: url('/src/images/Questions/4_4.jpg'); }
 
 .fiveOne { background-image: url('/src/images/Questions/5_1.jpg'); }
-.fiveTwo { background-image: url('/src/images/Questions/5_2.jpg'); }
-.fiveThree { background-image: url('/src/images/Questions/5_3.jpg'); }
-.fiveFour { background-image: url('/src/images/Questions/5_4.jpg'); }
+.fiveTwo { background-image: url('/src/images/Questions/5_2.jpg'); width: 170px;}
+.fiveThree { background-image: url('/src/images/Questions/5_3.jpg'); height: 170px;}
+.fiveFour { background-image: url('/src/images/Questions/5_4.jpg'); width: 170px;}
 
 /* .sixOne { background-image: url('/src/images/Questions/6_1.jpg'); }
 .sixTwo { background-image: url('/src/images/Questions/6_2.jpg'); }
@@ -97,9 +97,9 @@
 .sevenThree { background-image: url('/src/images/Questions/7_3.jpg'); }
 .sevenFour { background-image: url('/src/images/Questions/7_4.jpg'); }
 
-.heightOne { background-image: url('/src/images/Questions/8_1.jpg'); }
+.heightOne { background-image: url('/src/images/Questions/8_1.jpg'); height: 170px;}
 .heightTwo { background-image: url('/src/images/Questions/8_2.jpg'); }
-.heightThree { background-image: url('/src/images/Questions/8_3.jpg'); }
+.heightThree { background-image: url('/src/images/Questions/8_3.jpg'); height: 170px;}
 .heightFour { background-image: url('/src/images/Questions/8_4.jpg'); }
 .heightFive { background-image: url('/src/images/Questions/8_5.jpg'); }
 
@@ -119,12 +119,12 @@
 .elevenOne { background-image: url('/src/images/Questions/11_1.jpg'); }
 .elevenTwo { background-image: url('/src/images/Questions/11_2.jpg'); }
 .elevenThree { background-image: url('/src/images/Questions/11_3.jpg'); }
-.elevenFour { background-image: url('/src/images/Questions/11_4.jpg'); }
+.elevenFour { background-image: url('/src/images/Questions/11_4.jpg'); width: 170px;}
 
 .twelveOne { background-image: url('/src/images/Questions/12_1.jpg'); }
 .twelveTwo { background-image: url('/src/images/Questions/12_2.jpg'); }
-.twelveThree { background-image: url('/src/images/Questions/12_3.jpg'); }
-.twelveFour { background-image: url('/src/images/Questions/12_4.jpg'); }
+.twelveThree { background-image: url('/src/images/Questions/12_3.jpg'); height: 170px;}
+.twelveFour { background-image: url('/src/images/Questions/12_4.jpg'); height: 170px;}
 .twelveFive { background-image: url('/src/images/Questions/12_5.jpg'); }
 
 .twelveOne { background-image: url('/src/images/Questions/12_1.jpg'); }
