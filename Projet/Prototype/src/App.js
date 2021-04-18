@@ -72,10 +72,10 @@ function App() {
         },
         {
           questionBackGroung: 'question ImagesSeven',
-          answersOne: 'Selection answerOne fourSeven',
-          answersTwo: 'Selection answerTwo fourSeven',
-          answersThree: 'Selection answerThree fourSeven',
-          answersFour: 'Selection answerFour fourSeven'
+          answersOne: 'Selection answerOne sevenOne',
+          answersTwo: 'Selection answerTwo sevenTwo',
+          answersThree: 'Selection answerThree sevenThree',
+          answersFour: 'Selection answerFour sevenFour'
         },
         {
           questionBackGroung: 'question ImagesHeight',
