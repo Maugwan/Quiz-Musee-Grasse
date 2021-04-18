@@ -161,7 +161,11 @@ function App() {
         </div>
 
           <div className="Description">
-            <div className="Rules"><h3>Les régles :</h3></div>
+            <div className="Rules"><h3>Les régles :</h3>
+            <p>Deux essais avant de passer à la question suivante. </p>
+            <p>Glisser la souris sur les objets pour avoir des informations.</p>
+            <p>Un clique sur l'objet pour valider.</p>
+            </div>
             <div className="DescriptionTitle"><h3>Description :</h3></div>
             <div className="DescriptionContent">{PostData[question].answers[description].description}</div>
           </div>

@@ -18,7 +18,6 @@ body {
   background-image: url('/src/images/BackGroung/BackGroung.jpg');
   background-position: center;
   background-size: cover;
-  /*height: min-content;*/
   justify-content: space-evenly;
 }
 .Container {
@@ -33,7 +32,6 @@ body {
   row-gap: 2%;
 }
 
-/* rgba(255,255,255,.5)*/
 .QuestionText {
   grid-column: 1/3;
   grid-row: 1;
@@ -46,8 +44,11 @@ body {
   border-radius: 15px;
   margin: 2%;
   padding:5px;
-  background-color: aqua;
+  background-color: rgba(171,182,200);
 }
+
+
+
 
 .Description {
   grid-column: 2;
@@ -62,7 +63,7 @@ body {
   height: 5%;
 }
 .DescriptionContent {
-  height: 85%;
+  height: 55%;
   margin: 5%;
 }
 
