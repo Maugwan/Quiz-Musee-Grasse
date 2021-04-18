@@ -13,11 +13,11 @@
     transform: scale(2); 
 }
 
-.answerOne { margin-left: 22%; margin-top: 12%; }
+.answerOne { margin-left: 25%; margin-top: 20%; }
 .answerTwo { margin-left: 5%; margin-top: 10%; }
 .answerThree { margin-left: 42%; margin-top: 13%; }
-.answerFour { margin-left: 55%;margin-top: 20%; }
-.answerFive { margin-left: 20%;margin-top: 30%; }
+.answerFour { margin-left: 45%;margin-top: 40%; }
+.answerFive { margin-left: 20%;margin-top: 40%; }
 
 .Site {
     text-align: center;
@@ -28,7 +28,7 @@
     border-radius: 10px;
     border: 2px solid white;
     background-color: rgba(183,97,178,.7);
-    margin-left: 55%; margin-top: 1%;
+    margin-left: 1%; margin-top: 1%;
     transition: 1s;
 }
 .Site:hover {
