@@ -81,11 +81,11 @@ function App() {
         },
         {
           questionBackGroung: 'question ImagesSix',
-          answersOne: 'Selection answerOne fourSeven',
-          answersTwo: 'Selection answerTwo fourSeven',
-          answersThree: 'Selection answerThree fourSeven',
-          answersFour: 'Selection answerFour fourSeven',
-          answersFive: ''
+          answersOne: 'SIX answerOne sixOne',
+          answersTwo: 'SIX answerTwo sixTwo',
+          answersThree: 'SIX answerThree sixThree',
+          answersFour: 'SIX answerFour sixFour',
+          answersFive: 'SIX answerFour sixFour'
         },
         {
           questionBackGroung: 'question ImagesSeven',
@@ -159,7 +159,7 @@ function App() {
       <div className="QuestionText"><h2><span>{questionCount}</span>/{questionLenght - 1}  {PostData[question].question}</h2></div> 
         <div className={imagesBackGround[question].questionBackGroung}>
                 <a href="https://www.museesdegrasse.com/"><div className="Site">Retour au site</div></a>
-                <div className={imagesBackGround[question].answersOne} onMouseEnter={() => setDescription(description = 0)} onClick={doubleClick}></div>
+                <div className={imagesBackGround[question].answersOne} onMouseEnter={() => setDescription(description = 0)} onClick={doubleClick} title="Popover title" data-content="Popover body content is set in this attribute." ></div>
                 <div className={imagesBackGround[question].answersTwo} onMouseEnter={() => setDescription(description = 1)} onClick={doubleClick}></div>
                 <div className={imagesBackGround[question].answersThree} onMouseEnter={() => setDescription(description = 2)} onClick={doubleClick}></div>
                 <div className={imagesBackGround[question].answersFour} onMouseEnter={() => setDescription(description = 3)} onClick={doubleClick}></div>
