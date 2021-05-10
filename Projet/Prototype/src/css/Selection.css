@@ -1,3 +1,4 @@
+
 .Selection {
     width: 120px;
     height: 120px;
@@ -17,10 +18,13 @@
     border-radius: 10px;
     border: 2px solid white;
     transition: all .2s ease-in-out;
+
+    width: 700px; height: 60px; margin-left: 5%; margin-top: 27%;
 }
 
 .SIX:hover {
-
+    transform: scale(1.3); 
+    border: 3px solid rgba(0,212,255,0.7);
 }
 
 .Selection:hover {
@@ -101,11 +105,11 @@
 .fiveThree { background-image: url('/src/images/Questions/5_3.jpg'); height: 170px;}
 .fiveFour { background-image: url('/src/images/Questions/5_4.jpg'); width: 170px;}
 
-.sixOne { background-image: url('/src/images/Questions/6_1.jpg');width: 700px; height: 60px; margin-left: 5%; margin-top: 27%;}
-.sixTwo { background-image: url('/src/images/Questions/6_2.jpg'); width: 700px; height: 60px; margin-left: 5%; margin-top: 12%;}
-.sixThree { background-image: url('/src/images/Questions/6_3.jpg'); width: 700px; height: 60px; margin-left: 5%; margin-top: 5%;}
-.sixFour { background-image: url('/src/images/Questions/6_4.jpg'); width: 700px; height: 60px; margin-left: 5%; margin-top: 17%;}
-.sixFive { background-image: url('/src/images/Questions/6_5.jpg'); width: 700px; height: 60px; margin-left: 5%; margin-top: 22%;}
+.sixOne { background-image: url('/src/images/Questions/6_1.jpg');width: 700px; height: 60px; margin-left: 10%; margin-top: 10%;}
+.sixTwo { background-image: url('/src/images/Questions/6_2.jpg'); width: 700px; height: 60px; margin-left: 10%; margin-top: 15%;}
+.sixThree { background-image: url('/src/images/Questions/6_3.jpg'); width: 700px; height: 60px; margin-left: 10%; margin-top: 20%;}
+.sixFour { background-image: url('/src/images/Questions/6_4.jpg'); width: 700px; height: 60px; margin-left: 10%; margin-top: 30%;}
+.sixFive { background-image: url('/src/images/Questions/6_5.jpg'); width: 700px; height: 60px; margin-left: 10%; margin-top: 25%;}
 
 .sevenOne { background-image: url('/src/images/Questions/7_1.jpg'); }
 .sevenTwo { background-image: url('/src/images/Questions/7_2.jpg'); }

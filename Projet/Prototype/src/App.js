@@ -32,7 +32,7 @@ function App() {
                 setQuestion(question + 1)
                 setQuestionCount(questionCount + 1)
                 setTryNumber(tryNumber = 0)
-                alert("Zut !")
+                alert("Mauvause réponse.")
               }
             }else{
               alert("Bravo ! Vous avez fini le quiz avec  "+ counter + " bonne réponses !")
@@ -85,7 +85,7 @@ function App() {
           answersTwo: 'SIX answerTwo sixTwo',
           answersThree: 'SIX answerThree sixThree',
           answersFour: 'SIX answerFour sixFour',
-          answersFive: 'SIX answerFour sixFour'
+          answersFive: 'SIX answerFour sixFive'
         },
         {
           questionBackGroung: 'question ImagesSeven',
