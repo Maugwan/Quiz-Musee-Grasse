@@ -7,6 +7,7 @@ import Footer from './Component/Footer'
 import Rules from './Component/Rules'
 import './css/Selection.css'
 
+
 function App() {
   let [question, setQuestion] = useState(0);
   let [questionCount, setQuestionCount] = useState(1);
@@ -172,9 +173,8 @@ function App() {
         <div className={imagesBackGround[question].questionBackGroung}>
 
 
-
                 <a href="https://www.museesdegrasse.com/"><div className="Site">Retour au site</div></a>
-                <div className={imagesBackGround[question].answersOne} onMouseEnter={() => setDescription(description = 0)} onClick={choose} title="Popover title" data-content="Popover body content is set in this attribute." ></div>
+                <div className={imagesBackGround[question].answersOne} onMouseEnter={() => setDescription(description = 0)} onClick={choose} ></div>
                 <div className={imagesBackGround[question].answersTwo} onMouseEnter={() => setDescription(description = 1)} onClick={choose}></div>
                 <div className={imagesBackGround[question].answersThree} onMouseEnter={() => setDescription(description = 2)} onClick={choose}></div>
                 <div className={imagesBackGround[question].answersFour} onMouseEnter={() => setDescription(description = 3)} onClick={choose}></div>
@@ -182,7 +182,8 @@ function App() {
         </div>
         <div className="Description">
             <Rules/>
-            <div className="DescriptionTitle"><h3>Description :</h3></div>
+            <div className="DescriptionTitle"><h3>Description :</h3>
+            </div>
             <div className="DescriptionContent">{PostData[question].answers[description].description}</div>
         </div>
         <Footer/>
