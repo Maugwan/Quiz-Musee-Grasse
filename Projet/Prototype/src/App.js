@@ -14,10 +14,19 @@ function App() {
   let [counter, setCounter] = useState(0);
   let [tryNumber, setTryNumber] = useState(0);
   const questionLenght = PostData.length + 1;
-  
+
+  const choose = (question === 0)
+  ? firstPage
+  : doubleClick;
+
+
+      function firstPage(){
+          setQuestion(question + 1)
+      }
+
       function doubleClick(){
         let goodAnswer = PostData[question].good_answer
-        if(questionCount < imagesBackGround.length & question < 13){
+        if(questionCount < imagesBackGround.length & question < 14){
               if(goodAnswer !== description & tryNumber < 1) {
                 setTryNumber(tryNumber + 1)
                 alert("Mauvaise réponse ! encore un essai !")
@@ -164,14 +173,15 @@ function App() {
   return (
     <div className="App">
       <div className="Container">
-      <div className="QuestionText"><h2><span>{questionCount}</span>/{questionLenght - 1}  {PostData[question].question}</h2></div> 
+      <div className="QuestionText"><h2><span>{questionCount}</span>/{questionLenght - 2}  {PostData[question].question}</h2></div> 
         <div className={imagesBackGround[question].questionBackGroung}>
                 <a href="https://www.museesdegrasse.com/"><div className="Site">Retour au site</div></a>
-                <div className={imagesBackGround[question].answersOne} onMouseEnter={() => setDescription(description = 0)} onClick={doubleClick} title="Popover title" data-content="Popover body content is set in this attribute." ></div>
-                <div className={imagesBackGround[question].answersTwo} onMouseEnter={() => setDescription(description = 1)} onClick={doubleClick}></div>
-                <div className={imagesBackGround[question].answersThree} onMouseEnter={() => setDescription(description = 2)} onClick={doubleClick}></div>
-                <div className={imagesBackGround[question].answersFour} onMouseEnter={() => setDescription(description = 3)} onClick={doubleClick}></div>
-                <div className={imagesBackGround[question].answersFive} onMouseEnter={() => setDescription(description = 4)} onClick={doubleClick}></div>
+                <div className={imagesBackGround[question].answersOne} onMouseEnter={() => setDescription(description = 0)} onClick={choose} title="Popover title" data-content="Popover body content is set in this attribute." ></div>
+                <div className={imagesBackGround[question].answersTwo} onMouseEnter={() => setDescription(description = 1)} onClick={choose}></div>
+                <div className={imagesBackGround[question].answersThree} onMouseEnter={() => setDescription(description = 2)} onClick={choose}></div>
+                <div className={imagesBackGround[question].answersFour} onMouseEnter={() => setDescription(description = 3)} onClick={choose}></div>
+                <div className={imagesBackGround[question].answersFive} onMouseEnter={() => setDescription(description = 4)} onClick={choose}></div>
+                                  
         </div>
         <div className="Description">
             <Rules/>
