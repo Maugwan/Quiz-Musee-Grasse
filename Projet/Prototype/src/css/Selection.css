@@ -31,6 +31,25 @@
     transform: scale(2); 
 }
 
+.Commencer {
+    width: 65%;
+    height: 75%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.Start {
+    margin-left: 7%;
+    margin-top: 17%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-image: url("/src/images/Questions/start.gif");
+    
+}
+
 .answerOne { margin-left: 25%; margin-top: 20%; }
 .answerTwo { margin-left: 5%; margin-top: 10%; }
 .answerThree { margin-left: 42%; margin-top: 13%; }
@@ -61,6 +80,13 @@
     grid-row: 2;
     border-radius: 20px;
   }
+.Affiche {
+    background-size: cover;
+    grid-column: 1;
+    grid-row: 2;
+    border-radius: 20px;
+  }
+.ImagesZero {background-image: url("/src/images/Questions/0_0.jpg");}
 .ImagesOne {background-image: url("/src/images/Questions/1.jpg");}
 .ImagesTwo {background-image: url("/src/images/Questions/2.jpg");}
 .ImagesThree {background-image: url("/src/images/Questions/3.jpg");}

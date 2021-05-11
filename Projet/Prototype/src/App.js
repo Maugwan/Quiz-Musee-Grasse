@@ -17,7 +17,7 @@ function App() {
   
       function doubleClick(){
         let goodAnswer = PostData[question].good_answer
-        if(questionCount < 14 & question < 13){
+        if(questionCount < imagesBackGround.length & question < 13){
               if(goodAnswer !== description & tryNumber < 1) {
                 setTryNumber(tryNumber + 1)
                 alert("Mauvaise réponse ! encore un essai !")
@@ -39,6 +39,14 @@ function App() {
             }
       }
       const imagesBackGround = [
+        {
+          questionBackGroung: 'Affiche ImagesZero',
+          answersOne: 'Commencer',
+          answersTwo: 'Commencer',
+          answersThree: 'Commencer',
+          answersFour: 'Commencer',
+          answersFive: 'Selection Start'
+        },
         {
           questionBackGroung: 'question ImagesOne',
           answersOne: 'Selection answerOne oneOne',
@@ -145,10 +153,10 @@ function App() {
         },
         {
         questionBackGroung: 'question ImagesFourTeen',
-        answersOne: 'Selection answerOne thirteenOne',
-        answersTwo: 'Selection answerTwo thirteenTwo',
-        answersThree: 'Selection answerThree thirteenThree',
-        answersFour: 'Selection answerFour thirteenFour',
+        answersOne: '',
+        answersTwo: '',
+        answersThree: '',
+        answersFour: '',
         answersFive: ''
         },
       ]
