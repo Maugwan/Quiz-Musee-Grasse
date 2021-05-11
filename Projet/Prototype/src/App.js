@@ -162,11 +162,11 @@ function App() {
         },
         {
         questionBackGroung: 'question ImagesFourTeen',
-        answersOne: '',
-        answersTwo: '',
-        answersThree: '',
-        answersFour: '',
-        answersFive: ''
+        answersOne: 'Commencer',
+        answersTwo: 'Commencer',
+        answersThree: 'Commencer',
+        answersFour: 'Commencer',
+        answersFive: 'Commencer'
         },
       ]
 
