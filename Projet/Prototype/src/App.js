@@ -7,7 +7,6 @@ import Footer from './Component/Footer'
 import Rules from './Component/Rules'
 import './css/Selection.css'
 
-
 function App() {
   let [question, setQuestion] = useState(0);
   let [questionCount, setQuestionCount] = useState(1);
@@ -16,7 +15,7 @@ function App() {
   let [tryNumber, setTryNumber] = useState(0);
   const questionLenght = PostData.length + 1;
   const choose = (question === 0) ? firstPage : doubleClick;
-
+  
       function firstPage(){
           setQuestion(question + 1)
       }
@@ -37,12 +36,13 @@ function App() {
                 setQuestion(question + 1)
                 setQuestionCount(questionCount + 1)
                 setTryNumber(tryNumber = 0)
-                alert("Mauvause réponse.")
+                alert("Mauvause réponse." + PostData[question].answers[description].description)
               }
             }else{
               alert("Bravo ! Vous avez fini le quiz avec  "+ counter + " bonne réponses !")
             }
       }
+     
       const imagesBackGround = [
         {
           questionBackGroung: 'Affiche ImagesZero',
@@ -172,7 +172,6 @@ function App() {
       <div className="QuestionText"><h2><span>{questionCount}</span>/{questionLenght - 2}  {PostData[question].question}</h2></div> 
         <div className={imagesBackGround[question].questionBackGroung}>
 
-
                 <a href="https://www.museesdegrasse.com/"><div className="Site">Retour au site</div></a>
                 <div className={imagesBackGround[question].answersOne} onMouseEnter={() => setDescription(description = 0)} onClick={choose} ></div>
                 <div className={imagesBackGround[question].answersTwo} onMouseEnter={() => setDescription(description = 1)} onClick={choose}></div>
@@ -185,6 +184,7 @@ function App() {
             <div className="DescriptionTitle"><h3>Description :</h3>
             </div>
             <div className="DescriptionContent">{PostData[question].answers[description].description}</div>
+            <div>{PostData[question].test[description].description}</div>
         </div>
         <Footer/>
       </div>
