@@ -41,10 +41,11 @@ body {
 
 .Rules {
   height: auto;
+  padding: 1vw;
   border-radius: 15px;
   margin: 2%;
-  padding:5px;
   background-color: rgba(171,182,200);
+  text-align: justify;
 }
 
 .Description {
@@ -62,6 +63,8 @@ body {
 .DescriptionContent {
   height: 20%;
   margin: 5%;
+  text-align: justify;
+  line-height: 1.4;
 }
 
 .Footer {

@@ -36,7 +36,7 @@ function App() {
                 setQuestion(question + 1)
                 setQuestionCount(questionCount + 1)
                 setTryNumber(tryNumber = 0)
-                alert("Mauvause réponse." + PostData[question].answers[description].description)
+                alert("Mauvause réponse.")
               }
             }else{
               alert("Bravo ! Vous avez fini le quiz avec  "+ counter + " bonne réponses !")
@@ -169,7 +169,7 @@ function App() {
   return (
     <div className="App">
       <div className="Container">
-      <div className="QuestionText"><h2><span>{questionCount}</span>/{questionLenght - 2}  {PostData[question].question}</h2></div> 
+      <div className="QuestionText"><h1><span>{questionCount}</span>/{questionLenght - 2}  {PostData[question].question}</h1></div> 
         <div className={imagesBackGround[question].questionBackGroung}>
 
                 <a href="https://www.museesdegrasse.com/"><div className="Site">Retour au site</div></a>
@@ -184,7 +184,7 @@ function App() {
             <div className="DescriptionTitle"><h3>Description :</h3>
             </div>
             <div className="DescriptionContent">{PostData[question].answers[description].description}</div>
-            <div>{PostData[question].test[description].description}</div>
+            <div className="DescriptionContent">{PostData[question].test[description].description}</div>
         </div>
         <Footer/>
       </div>
