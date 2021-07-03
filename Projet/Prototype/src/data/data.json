@@ -3,19 +3,19 @@
         "question": "Bienvenue ! Êtes-vous prêts pour un petit jeu ?",
         "answers": [
             {
-                "description": "Pourquoi ce Quiz ? \n Ce Quiz à pour objectif de vous faire découvrir une partie de la prochaine exposition du musée de Grasse ! "
+                "description": "Venez découvrir la collection permanente du musée à travers ce jeu sur l’histoire de la poudre et l’exposition La poudre de beauté et ses écrins actuellement présentée au Musée International de la Parfumerie à Grasse."
             },
             {
-                "description": "Pourquoi ce Quiz ? \n Ce Quiz à pour objectif de vous faire découvrir une partie de la prochaine exposition du musée de Grasse !"
+                "description": "Venez découvrir la collection permanente du musée à travers ce jeu sur l’histoire de la poudre et l’exposition La poudre de beauté et ses écrins actuellement présentée au Musée International de la Parfumerie à Grasse."
             },
             {
-                "description": "Pourquoi ce Quiz ? \n Ce Quiz à pour objectif de vous faire découvrir une partie de la prochaine exposition du musée de Grasse !"
+                "description": "Venez découvrir la collection permanente du musée à travers ce jeu sur l’histoire de la poudre et l’exposition La poudre de beauté et ses écrins actuellement présentée au Musée International de la Parfumerie à Grasse."
             },
             {
-                "description": "Pourquoi ce Quiz ? \n Ce Quiz à pour objectif de vous faire découvrir une partie de la prochaine exposition du musée de Grasse !"
+                "description": "Venez découvrir la collection permanente du musée à travers ce jeu sur l’histoire de la poudre et l’exposition La poudre de beauté et ses écrins actuellement présentée au Musée International de la Parfumerie à Grasse."
             },
             {
-                "description": "Pourquoi ce Quiz ? \n Ce Quiz à pour objectif de vous faire découvrir une partie de la prochaine exposition du musée de Grasse !"
+                "description": "Venez découvrir la collection permanente du musée à travers ce jeu sur l’histoire de la poudre et l’exposition La poudre de beauté et ses écrins actuellement présentée au Musée International de la Parfumerie à Grasse."
             }
         ],
         "test": [
@@ -231,19 +231,19 @@
         "question": "Je peux servir de boite  à fard en Grèce. Qui suis-je?",
         "answers": [
             {
-                "description": "Un lécythe\nVase grec antique de forme élancée, munie d’une anse, d’un pied au col long et étroit "
+                "description": "Un lécythe\nvase grec antique de forme élancée, munie d’une anse, d’un pied au col long et étroit "
             },
             {
-                "description": "Un aryballe\nVase grec antique à panse globulaire, piriforme ou ovoïde"
+                "description": "Un aryballe\nvase grec antique à panse globulaire, piriforme ou ovoïde"
             },
             {
-                "description": "Un vase plastique\nRécipient modelé ou moulé pouvant prendre différentes formes et volumes"
+                "description": "Un vase plastique\nrécipient modelé ou moulé pouvant prendre différentes formes et volumes"
             },
             {
-                "description": "Un mandrin\nPièce, outil le plus souvent de forme cylindrique"
+                "description": "Un mandrin\npièce, outil le plus souvent de forme cylindrique"
             },
             {
-                "description": "Une pyxide\nPetite boîte avec couvercle utilisée dans l'Antiquité"
+                "description": "Une pyxide\npetite boîte avec couvercle utilisée dans l'Antiquité"
             }
         ],
         "test": [
@@ -307,7 +307,7 @@
         "question": "Faite d’écorce, utilisé au XVIIIème siècle, je peux prendre différentes formes. Qui suis-je?",
         "answers": [
             {
-                "description": "Boîte bergamote représentant Napoléon\n18e s, Grasse\nInv. 93 711"
+                "description": "Boîte représentant Napoléon\n18e s, Grasse\nInv. 93 711"
             },
             {
                 "description": "Mandrin\nBois\n18e s, Grasse\nInv. 93 644"
@@ -324,7 +324,7 @@
         ],
         "test": [
             {
-                "description": "L’écorce épaisse du bergamotier, hybride de bigaradier et de citronnier était utilisée pour la fabrication des boites éponymes à Grasse et en Calabre."
+                "description": "L’écorce épaisse du bergamotier, hybride de l’oranger bigaradier et du citronnier était utilisée pour la fabrication des boites éponymes à Grasse et en Calabre."
             },
             {
                 "description": "Pièce en bois utilisée pour le façonnage des boites bergamote."
@@ -383,7 +383,7 @@
         "question": "Je suis une poudre, les chinois ne m’utilisaient pas pour le maquillage mais pour l’hygiène. Qui suis-je?",
         "answers": [
             {
-                "description": "Boîte à dentifrice\nMao Tcha\nL.T. PIVER\n19e siècle (4e quart)\nPorcelaine\nInv.97 318 A B"
+                "description": "Boîte\nMao Tcha\nL.T. PIVER\n19e siècle (4e quart)\nPorcelaine\nInv.97 318 A B"
             },
             {
                 "description": "Poudrier\nMétal\n20e siècle\nInv.95 69"
@@ -406,7 +406,7 @@
                 "description": "François Coty (1874-1934), cofondateur de l'entreprise de parfums Coty, était considéré comme le père de la parfumerie moderne. Ses parfums étaient les plus vendus dans le monde au début du XXème siècle. Aujourd’hui la société existe encore et est devenue une multinationale."
             },
             {
-                "description": "aujourd'hui disparu. Pot à onguents ou boîte de senteur en forme d'urne antique, en argent repoussé"
+                "description": "Pot à onguents ou boîte de senteur en forme d'urne antique, en argent repoussé"
             },
             {
                 "description": ""
@@ -438,7 +438,7 @@
         ],
         "test": [
             {
-                "description": "Le brule parfum était un contenant que l’on pouvait avoir dans les maisons pour faire brûler des résines et des bois."
+                "description": "Le brûle parfum était un contenant que l’on pouvait avoir dans les maisons pour faire brûler des résines et des bois."
             },
             {
                 "description": "En Inde, le paon symbolise la beauté et le pouvoir de stransmutation. La beauté de son plumage est supposée produite par la transmutation spontanée des venins qu'il absorbe en détruisant les serpents. Il est surtout symbole d'immortalité."

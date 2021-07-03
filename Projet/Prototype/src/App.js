@@ -24,19 +24,19 @@ function App() {
         if(questionCount < imagesBackGround.length & question < 14){
               if(goodAnswer !== description & tryNumber < 1) {
                 setTryNumber(tryNumber + 1)
-                alert("Mauvaise réponse ! encore un essai !")
+                alert("Mauvaise réponse ! encore un essai !\n\n" + PostData[question].test[description].description)
               }else if(goodAnswer === description){
                 setCounter(counter + 1)
                 setQuestion(question + 1)
                 setQuestionCount(questionCount + 1)
                 setTryNumber(tryNumber = 0)
-                alert("Bonne réponse !")
+                alert("Bonne réponse !\n\n" + PostData[question].test[description].description)
               }
               else {
                 setQuestion(question + 1)
                 setQuestionCount(questionCount + 1)
                 setTryNumber(tryNumber = 0)
-                alert("Mauvause réponse.")
+                alert("Mauvause réponse.\n\n" + PostData[question].test[description].description)
               }
             }else{
               alert("Bravo ! Vous avez fini le quiz avec  "+ counter + " bonne réponses !")
@@ -184,7 +184,6 @@ function App() {
             <div className="DescriptionTitle"><h3>Description :</h3>
             </div>
             <div className="DescriptionContent">{PostData[question].answers[description].description}</div>
-            <div className="DescriptionContent">{PostData[question].test[description].description}</div>
         </div>
         <Footer/>
       </div>
